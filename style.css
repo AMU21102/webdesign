@@ -3,7 +3,10 @@
  background-image: radial-gradient(circle, #ff595e, #fb6f41, #ed8624, #d89d03, #bdb100, #9cba27, #79c146, #4dc666, #1bc188, #00b9a1, #2fb0ae, #58a5b0); 
  background-size: cover;
  height: 300px;
- position: relative; 
+ position: relative;
+ border-style: solid;
+ border-width: 10px;
+ border-color: #ffff;
 }
 
 .hero-text {
@@ -16,5 +19,5 @@
 }
 
 body {
-background-color: aquamarine;
+background-color: #DFD7EA;
 }
