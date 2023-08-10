@@ -1,7 +1,19 @@
-h1 {
- background-image: radial-gradient(circle, #ff595e, #fb6f41, #ed8624, #d89d03, #bdb100, #9cba27, #79c146, #4dc666, #1bc188, #00b9a1, #2fb0ae, #58a5b0);   
+
+.heroimage {
+ background-image: radial-gradient(circle, #ff595e, #fb6f41, #ed8624, #d89d03, #bdb100, #9cba27, #79c146, #4dc666, #1bc188, #00b9a1, #2fb0ae, #58a5b0); 
+ background-size: cover;
+ height: 300px;
+ position: relative; 
 }
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
 
 body {
 background-color: aquamarine;
