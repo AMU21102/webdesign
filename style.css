@@ -4,9 +4,8 @@
  background-image: radial-gradient(circle, #ff218c, #ff416c, #ff664e, #ff8a31, #ffab19, #ddc20a, #b4d530, #81e55c, #00e2a0, #00d7da, #00c7fd, #21b1ff); 
  height: 300px;
  position: relative;
- border-style: solid;
- border-width: 10px;
- border-color: #ffff;
+ margin-bottom: 7px;
+
 }
 
 .hero-text {
@@ -18,7 +17,7 @@
     color: white;
 }
 
-body {
+.whatis {
 margin: 0;
 background-color: #ff595e;
 }
