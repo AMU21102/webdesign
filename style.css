@@ -23,16 +23,16 @@ background-color: #ff595e;
 }
 
 .about {
-    margin-bottom: 3px;
+    margin-bottom: 0;
     background-color: #FF924C;
 }
 
 .support {
-    margin-bottom: 3px;
+    margin-bottom: 0;
     background-color: #ffca3a;
 }
 
 .library {
-    margin-bottom: 3px;
+    margin-bottom: 0;
     background-color: #8ac926;
 }
