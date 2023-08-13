@@ -17,22 +17,26 @@
     color: white;
 }
 
-.whatis {
-margin: 0;
-background-color: #ff595e;
+.hero-section,
+.whatis-section,
+.about-section,
+.support-section,
+.library-section {
+    margin-bottom: 7px;
 }
 
-.about {
-    margin-bottom: 0;
+.whatis-section {
+    background-color: #ff595e;
+}
+
+.about-section {
     background-color: #FF924C;
 }
 
-.support {
-    margin-bottom: 0;
+.support-section {
     background-color: #ffca3a;
 }
 
-.library {
-    margin-bottom: 0;
+.library-section {
     background-color: #8ac926;
 }
