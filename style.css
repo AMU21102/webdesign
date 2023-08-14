@@ -1,7 +1,7 @@
 
 .hero-image {
  background-size: cover;
- background-image: radial-gradient(circle, #ff218c, #ff416c, #ff664e, #ff8a31, #ffab19, #ddc20a, #b4d530, #81e55c, #00e2a0, #00d7da, #00c7fd, #21b1ff); 
+ background-image: radial-gradient(circle, #ff70b5, #ff839b, #ff9e8a, #ffb986, #ffd391, #eee098, #dceca7, #cbf6bc, #a8f4d1, #90efe7, #8ae6f8, #99dbff); 
  height: 300px;
  position: relative;
  margin-bottom: 7px;
@@ -17,26 +17,25 @@
     color: white;
 }
 
-.hero-section,
-.whatis-section,
-.about-section,
-.support-section,
-.library-section {
-    margin-bottom: 7px;
-}
+
+
 
 .whatis-section {
-    background-color: #ff595e;
+    margin: 0;
+    background-color: #99DBFF;
 }
 
 .about-section {
-    background-color: #FF924C;
+    margin: 0;
+    background-color: #AEDDD6;
 }
 
 .support-section {
-    background-color: #ffca3a;
+    margin: 0;
+    background-color: #FF70B5;
 }
 
 .library-section {
-    background-color: #8ac926;
+    margin: 0;
+    background-color: #FCFCD4;
 }
