@@ -1,10 +1,12 @@
 
 .hero-image {
- background-size: cover;
- background-image: radial-gradient(circle, #ff70b5, #ff839b, #ff9e8a, #ffb986, #ffd391, #eee098, #dceca7, #cbf6bc, #a8f4d1, #90efe7, #8ae6f8, #99dbff); 
- height: 300px;
- position: relative;
- margin-bottom: 7px;
+    background-size: cover;
+    background-image: url(Bhsimage.png);
+    background-position: top center;
+    height: 300px;
+    will-change: 100%;
+    position: relative;
+    margin-bottom: 7px;
 
 }
 
@@ -16,9 +18,6 @@
     transform: translate(-50%, -50%);
     color: white;
 }
-
-
-
 
 .whatis-section {
     margin: 0;
