@@ -1,12 +1,14 @@
 
 .hero-image {
-    background-size: cover;
+    background-size: contain;
     background-image: url(Bhsimage.png);
-    background-position: top center;
-    height: 300px;
-    will-change: 100%;
-    position: relative;
+    background-position: top, center;
+    width: 100%;
+    height: 100vh;
+    position: center, center;
     margin-bottom: 7px;
+    background-repeat: no-repeat;
+    overflow: hidden;
 
 }
 
