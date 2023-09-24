@@ -12,14 +12,24 @@
 
 }
 
+/* Add rainbow effect to .hero-text */
 .hero-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    background: linear-gradient(to right, #FF70B5, #FFB986, #FFF3AD, #AEDDD6, #99DBFF, #D6CDDF);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
+
 
 .whatis-section {
     margin: 0;
