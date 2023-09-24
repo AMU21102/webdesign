@@ -30,23 +30,124 @@
     
 }
 
+h2, p {
+    text-align: center;
+}
 
-.whatis-section {
+#whatis-section {
     margin: 0;
     background-color: #99DBFF;
 }
+#whatis-paragraph {
+    background-color: #99DBFF;
+}
 
-.about-section {
+#about-section {
     margin: 0;
     background-color: #AEDDD6;
 }
+#about-paragraph {
+    background-color: #AEDDD6;
+}
 
-.support-section {
-    margin: 0;
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D4EDE9; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s; 
+}
+
+
+.learn-more-button:hover {
+    background-color: #AEDDD6; 
+}
+
+
+#support-section{
+    margin:0;
+    background-color: #FF70B5;
+}
+#support-paragraph{
     background-color: #FF70B5;
 }
 
-.library-section {
+#library-section{
+    margin:0;
+    background-color: #FFF3AD;
+}
+#library-paragraph{
+    background-color: #FFF3AD;
+}
+
+
+#whatis-section,
+#about-section,
+#support-section,
+#library-section {
     margin: 0;
-    background-color: #FCFCD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    background-color: #FF70B5;
+}
+
+.image-container {
+    text-align: center;
+    padding: 5px;
+    max-width: 300px; 
+}
+
+
+
+#whatis-paragraph,
+#about-paragraph,
+#support-paragraph,
+#library-paragraph {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.support-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF70B5;
+    margin-bottom: 10px;
+}
+.support-text {
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
+.support-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF99CA; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s; 
+}
+.support-button:hover {
+    background-color: #FF70B5; 
 }
