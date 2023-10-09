@@ -1,3 +1,18 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+p, span, div {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
 
 .hero-image {
     background-size: contain;
@@ -33,26 +48,57 @@ h2, p {
     text-align: center;
 }
 
-#whatis-section {
+#whatis-section,
+#about-section,
+#support-section,
+#library-section,
+#calander-section {
     margin: 0;
-    background-color: #99DBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;  
 }
-#whatis-paragraph {
-    background-color: #99DBFF;
+#whatis-paragraph,
+#about-paragraph,
+#support-paragraph,
+#library-paragraph,
+#calander-section {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 #about-section {
     margin: 0;
     background-color: #AEDDD6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    
 }
 #about-paragraph {
     background-color: #AEDDD6;
 }
 
+#whatis-section {
+    margin: 0;
+    background-color: #99DBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+#whatis-paragraph {
+    background-color: #99DBFF;
+}
 .learn-more-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #D4EDE9; 
+    background-color: #ADE2FF; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -62,67 +108,23 @@ h2, p {
     transition: background-color 0.3s; 
 }
 
-
 .learn-more-button:hover {
-    background-color: #AEDDD6; 
+    background-color: #99DBFF; 
 }
 
 
 #support-section{
     margin:0;
     background-color: #FF70B5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
 }
 #support-paragraph{
     background-color: #FF70B5;
 }
-
-#library-section{
-    margin:0;
-    background-color: #FFF3AD;
-}
-#library-paragraph{
-    background-color: #FFF3AD;
-}
-
-
-#whatis-section,
-#about-section,
-#support-section,
-#library-section {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    text-align: center;
-    
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 40px 1fr;
-    grid-gap: 20px;
-    width: 100%;
-    justify-content: center;
-    background-color: #FF70B5;
-}
-
-.image-container {
-    text-align: center;
-    padding: 5px;
-    max-width: 300px; 
-}
-
-
-
-#whatis-paragraph,
-#about-paragraph,
-#support-paragraph,
-#library-paragraph {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
 .support-container {
     display: flex;
     justify-content: center;
@@ -149,4 +151,40 @@ h2, p {
 }
 .support-button:hover {
     background-color: #FF70B5; 
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    background-color: #FF70B5;
+}
+
+.image-container {
+    text-align: center;
+    padding: 5px;
+    max-width: 300px; 
+}
+#library-section{
+    margin:0;
+    background-color: #FFF3AD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+#library-paragraph{
+    background-color: #FFF3AD;
+}
+
+#calander-section {
+    margin: 0;
+    background-color: #FFB986;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
 }
